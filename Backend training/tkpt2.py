@@ -1,0 +1,11 @@
+from tkinter import *
+top=Tk()
+top.title("Nisar")
+top.geometry("300x200")
+Name = Label(top,text="Name")
+Name.place(x=50,y=50)
+e1=Entry(top)
+e1.place(x=100,y=50)
+button=Button(text="Login")
+button.place(x=50,y=80)
+top.mainloop()
